@@ -12,6 +12,6 @@ function logDriversByHometown(drivers, town) {
 
 function driversByRevenue(drivers, rev) {
   drivers.sort(function(driver) {
-
+    console.log(driver.name)
   }
 }
