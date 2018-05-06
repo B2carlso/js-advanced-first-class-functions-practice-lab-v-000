@@ -9,3 +9,9 @@ function logDriversByHometown(drivers, town) {
     if (driver.hometown === town) {console.log(driver.name)}
   })
 }
+
+function driversByRevenue(drivers, rev) {
+  drivers.sort(function(driver) {
+
+  }
+}
